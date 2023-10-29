@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgba(27, 13, 225, 0.87);
+    color:#40b459;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Screenshot 2023-08-25 045718.png") no-repeat center;
+    background: url("https://img.freepik.com/free-photo/selective-focus-shot-some-wheat-field_181624-4843.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -198,24 +198,24 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background:rgba(27, 13, 225, 0.87);
+    background:#40b459;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgba(27, 13, 225, 0.87);
+    border: 2px solid #40b459;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgba(27, 13, 225, 0.87);
+    color:#40b459;
     background: none;
 }
 
 /* about section styling */
 .about .title::after{
-    content: "who I am";
+    content: "";
 }
 .about .about-content .left{
     width: 45%;
@@ -236,25 +236,25 @@ display: flex;
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgba(27, 13, 225, 0.87);
+    border: 2px solid #40b459;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     background: none;
 }
 
@@ -270,7 +270,7 @@ display: flex;
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -282,7 +282,7 @@ display: flex;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -292,7 +292,7 @@ display: flex;
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -322,18 +322,18 @@ display: flex;
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: rgba(27, 13, 225, 0.87);
+    background:#40b459;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgba(27, 13, 225, 0.87);
+    border: 2px solid #40b459;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -361,7 +361,7 @@ display: flex;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -392,7 +392,7 @@ display: flex;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: rgba(27, 13, 225, 0.87);
+    background: #40b459;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -414,7 +414,7 @@ display: flex;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid rgba(27, 13, 225, 0.87);
+    border: 5px solid #40b459;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -430,7 +430,7 @@ display: flex;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgba(27, 13, 225, 0.87)!important;
+    border: 2px solid #40b459!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -439,12 +439,12 @@ display: flex;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgba(27, 13, 225, 0.87)!important;
+    background: #40b459!important;
 }
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -470,7 +470,7 @@ display: flex;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -529,12 +529,12 @@ display: flex;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: rgba(27, 13, 225, 0.87);
-  border: 2px solid rgba(27, 13, 225, 0.87);
+  background: #40b459;;
+  border: 2px solid #40b459;;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: rgba(27, 13, 225, 0.87);
+  color: #40b459;;
   background: none;
 }
 /* footer section styling */
@@ -545,7 +545,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: rgba(27, 13, 225, 0.87);
+    color: #40b459;
     text-decoration: none;
 }
 footer span a:hover{
